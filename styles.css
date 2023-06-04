@@ -130,14 +130,15 @@ table {
 }
 
 .bold-nav {
+  margin-left: 195px;
+  margin-top: 30px;
 }
 
 .bold-nav-description {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
-  padding-left: 136px;
-  margin-top: 30px;
+  color: white;
 }
 .nav-padd {
   margin-top: 33px;
@@ -145,4 +146,45 @@ table {
 }
 .nav-left {
   padding-left: 76px;
+}
+.pages-nav-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+.index-background {
+  background: rgba(0, 0, 0, 0.5) url(/images/background.jpg);
+  color: #fff; /*Цвет текста на странице*/
+  background-attachment: fixed; /* Фон страницы фиксируется */
+  background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+.h1-main {
+  font-size: 58px;
+  line-height: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+.h5-main {
+  margin-top: 243px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #fc724d;
+}
+.h4-main {
+  font-size: 20px;
+  line-height: 30px;
+  width: 536px;
+  margin: auto;
+}
+.btn-disciption {
+  margin-top: 40px;
+  padding: 15px 40px;
+  background-color: #fc724d;
+  border: none;
+}
+.btn-disciption:hover {
+  color: none;
 }
