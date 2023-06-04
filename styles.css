@@ -155,7 +155,7 @@ table {
   color: white;
 }
 .index-background {
-  background: rgba(0, 0, 0, 0.5) url(/images/background.jpg);
+  background: rgba(159, 50, 50, 0.5) url(/images/background.jpg);
   color: #fff; /*Цвет текста на странице*/
   background-attachment: fixed; /* Фон страницы фиксируется */
   background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
@@ -172,6 +172,7 @@ table {
   padding-bottom: 40px;
   text-align: center;
   color: #fc724d;
+  text-shadow: 2em;
 }
 .h4-main {
   font-size: 20px;
