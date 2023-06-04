@@ -102,6 +102,8 @@ section {
 }
 body {
   line-height: 1;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 ol,
 ul {
@@ -123,10 +125,24 @@ table {
   border-spacing: 0;
 }
 
+.nav-main {
+  margin-left: 59px;
+}
+
 .bold-nav {
-  font-size: 30px;
+}
+
+.bold-nav-description {
+  font-size: 24px;
+  line-height: 32px;
   font-weight: bold;
+  padding-left: 136px;
+  margin-top: 30px;
 }
 .nav-padd {
-  margin-top: 0.9em;
+  margin-top: 33px;
+  padding-right: 21px;
+}
+.nav-left {
+  padding-left: 76px;
 }
