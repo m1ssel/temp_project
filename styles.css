@@ -171,8 +171,7 @@ table {
   margin-top: 243px;
   padding-bottom: 40px;
   text-align: center;
-  color: #fc724d;
-  text-shadow: 2em;
+  color: white;
 }
 .h4-main {
   font-size: 20px;
@@ -185,7 +184,6 @@ table {
   padding: 15px 40px;
   background-color: #fc724d;
   border: none;
-}
-.btn-disciption:hover {
-  color: none;
+  border-radius: 0.5em;
+  color: white;
 }
