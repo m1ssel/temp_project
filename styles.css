@@ -155,7 +155,7 @@ table {
   color: white;
 }
 .index-background {
-  background: rgba(95, 0, 0, 0.7) url(temp_project/images/background.png);
+  background: rgba(95, 0, 0, 0.7) url(/images/background.png);
   color: #fff; /*Цвет текста на странице*/
   background-attachment: fixed; /* Фон страницы фиксируется */
   background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
