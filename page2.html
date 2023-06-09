@@ -11,6 +11,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <script src="functions.js"></script>
     <link rel="stylesheet" href="styles_2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,7 +56,11 @@
     </p>
     <div>
       <div class="card_container">
-        <div class="card_1">
+        <div
+          class="card_1"
+          onmouseover="changeText(this)"
+          onmouseout="resetText(this)"
+        >
           <img src="images/heart.png" alt="heart" class="def_img" />
           <h5 class="card1_descript">Painless procedures</h5>
           <img src="images/underline.png" alt="_" class="underline_img" />
@@ -63,7 +68,11 @@
             The gradual accumulation of information about
           </p>
         </div>
-        <div class="card_2">
+        <div
+          class="card_2"
+          onmouseover="changeText2(this)"
+          onmouseout="resetText2(this)"
+        >
           <img src="images/stethoscope.png" alt="heart" class="def_img" />
           <h5 class="card2_descript">Online Appoinment</h5>
           <img src="images/underline.png" alt="_" class="underline_img" />
@@ -71,7 +80,11 @@
             The gradual accumulation of information about
           </p>
         </div>
-        <div class="card_3">
+        <div
+          class="card_3"
+          onmouseover="changeText3(this)"
+          onmouseout="resetText3(this)"
+        >
           <img src="images/copybook.png" alt="heart" class="def_img" />
           <h5 class="card3_descript">Cancer Care</h5>
           <img src="images/underline.png" alt="_" class="underline_img" />
@@ -79,10 +92,19 @@
             The gradual accumulation of information about
           </p>
         </div>
-        <div class="card_4">
+        <div
+          class="card_4"
+          onmouseover="changeText4(this)"
+          onmouseout="resetText4(this)"
+        >
           <img src="images/logo_med.png" alt="heart" class="def_img" />
           <h5 class="card4_descript">Book now</h5>
-          <img src="images/underline.png" alt="_" class="underline_img" />
+          <img
+            src="images/underline.png"
+            alt="_"
+            class="underline_img"
+            id="underline_hover_img"
+          />
           <p class="card4_text">
             The gradual accumulation of information about
           </p>

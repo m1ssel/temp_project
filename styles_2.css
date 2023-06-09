@@ -203,8 +203,12 @@ table {
 .card_1:hover {
   background-color: #fc724d;
   color: white;
+  height: 312px;
   .card1_text {
     color: white;
+  }
+  .underline_img {
+    filter: brightness(0) invert(1);
   }
 }
 .card1_descript {
@@ -256,6 +260,14 @@ table {
 }
 .card_2:hover {
   background-color: #fc724d;
+  color: white;
+  height: 312px;
+  .card2_text {
+    color: white;
+  }
+  .underline_img {
+    filter: brightness(0) invert(1);
+  }
 }
 .card_3 {
   margin-right: 30px;
@@ -281,6 +293,14 @@ table {
 }
 .card_3:hover {
   background-color: #fc724d;
+  color: white;
+  height: 312px;
+  .card3_text {
+    color: white;
+  }
+  .underline_img {
+    filter: brightness(0) invert(1);
+  }
 }
 .card_4 {
   width: 240px;
@@ -305,6 +325,14 @@ table {
 }
 .card_4:hover {
   background-color: #fc724d;
+  color: white;
+  height: 312px;
+  .card4_text {
+    color: white;
+  }
+  .underline_img {
+    filter: brightness(0) invert(1);
+  }
 }
 .card_container {
   display: flex;
