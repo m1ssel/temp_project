@@ -185,10 +185,127 @@ table {
 .p_descript {
   margin-left: 198px;
   padding-bottom: 112px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 20px;
   width: 469px;
   height: 40px;
   color: #737373;
+}
+.card_1 {
+  margin-right: 30px;
+  margin-left: 195.5px;
+  width: 238px;
+  height: 292px;
+  box-shadow: 2px 0px 19px 0px rgba(0, 0, 0, 7%),
+    -2px 0px 19px 0px rgba(0, 0, 0, 7%), 0px 13px 19px 0px rgba(0, 0, 0, 7%);
+}
+.card_1:hover {
+  background-color: #fc724d;
+  color: white;
+  .card1_text {
+    color: white;
+  }
+}
+.card1_descript {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 40px;
+}
+.card1_text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+  width: 180px;
+  height: 60px;
+  color: #737373;
+}
+.def_img {
+  padding-top: 35px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.underline_img {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card_2 {
+  margin-right: 30px;
+  width: 241px;
+  height: 292px;
+  box-shadow: 2px 0px 19px 0px rgba(0, 0, 0, 7%),
+    -2px 0px 19px 0px rgba(0, 0, 0, 7%), 0px 13px 19px 0px rgba(0, 0, 0, 7%);
+}
+.card2_descript {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 40px;
+}
+.card2_text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+  width: 180px;
+  height: 60px;
+  color: #737373;
+}
+.card_2:hover {
+  background-color: #fc724d;
+}
+.card_3 {
+  margin-right: 30px;
+  width: 240px;
+  height: 292px;
+  box-shadow: 2px 0px 19px 0px rgba(0, 0, 0, 7%),
+    -2px 0px 19px 0px rgba(0, 0, 0, 7%), 0px 13px 19px 0px rgba(0, 0, 0, 7%);
+}
+.card3_descript {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 40px;
+}
+.card3_text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+  width: 180px;
+  height: 60px;
+  color: #737373;
+}
+.card_3:hover {
+  background-color: #fc724d;
+}
+.card_4 {
+  width: 240px;
+  height: 292px;
+  box-shadow: 2px 0px 19px 0px rgba(0, 0, 0, 7%),
+    -2px 0px 19px 0px rgba(0, 0, 0, 7%), 0px 13px 19px 0px rgba(0, 0, 0, 7%);
+}
+.card4_descript {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 40px;
+}
+.card4_text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+  width: 180px;
+  height: 60px;
+  color: #737373;
+}
+.card_4:hover {
+  background-color: #fc724d;
+}
+.card_container {
+  display: flex;
 }
