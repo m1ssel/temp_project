@@ -1,0 +1,194 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.nav-main {
+  margin-left: 59px;
+}
+
+.bold-nav {
+  margin-left: 195px;
+  margin-top: 30px;
+}
+
+.bold-nav-description {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: black;
+}
+.nav-padd {
+  margin-top: 33px;
+  padding-right: 21px;
+}
+.nav-left {
+  padding-left: 76px;
+}
+.pages-nav-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+}
+
+.btn-disciption {
+  margin-top: 40px;
+  padding: 15px 40px;
+  background-color: #fc724d;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.advice_descript {
+  margin-top: 112px;
+  margin-left: 198px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #fc724d;
+}
+.main_head2 {
+  margin-left: 198px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.p_descript {
+  margin-left: 198px;
+  padding-bottom: 112px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 469px;
+  height: 40px;
+  color: #737373;
+}
