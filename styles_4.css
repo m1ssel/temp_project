@@ -1,0 +1,257 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.nav-main {
+  margin-left: 59px;
+}
+
+.bold-nav {
+  margin-left: 195px;
+  margin-top: 30px;
+}
+
+.bold-nav-description {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: black;
+}
+.nav-padd {
+  margin-top: 33px;
+  padding-right: 21px;
+}
+.nav-left {
+  padding-left: 76px;
+}
+.pages-nav-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+}
+
+.btn-disciption {
+  margin-top: 40px;
+  padding: 15px 40px;
+  background-color: #fc724d;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.page_descript {
+  margin-top: 70px;
+  margin-left: 198px;
+  padding-bottom: 10px;
+  color: #fc724d;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.page_main {
+  margin-left: 198px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.pg4_parag {
+  margin-left: 198px;
+  padding-bottom: 70px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.cards_container {
+  display: flex;
+}
+.card_1 {
+  width: 240px;
+  height: 300px;
+}
+.card_1_container {
+  padding-right: 30px;
+  margin-left: 195.5px;
+  position: relative;
+}
+.like_img {
+  position: absolute;
+  top: 240px;
+  left: 50px;
+}
+.basket_img {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+.view_img {
+  position: absolute;
+  top: 240px;
+  left: 150px;
+}
+
+.card_2 {
+  width: 241px;
+  height: 300px;
+}
+.card_2_container {
+  padding-right: 30px;
+  position: relative;
+}
+.card_3 {
+  width: 240px;
+  height: 300px;
+}
+.card_3_container {
+  padding-right: 30px;
+  position: relative;
+}
+.card_4 {
+  width: 238px;
+  height: 300px;
+}
+.card_4_container {
+  padding-right: 30px;
+  position: relative;
+}
+.sale_butt {
+  top: 20px;
+  left: 30px;
+  position: absolute;
+  width: 51px;
+  height: 24px;
+  background-color: #e74040;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sale_main {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
