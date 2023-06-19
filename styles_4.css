@@ -192,6 +192,7 @@ table {
 .card_1 {
   width: 240px;
   height: 300px;
+  margin-bottom: 26px;
 }
 .card_1_container {
   padding-right: 30px;
@@ -226,6 +227,7 @@ table {
 .card_2 {
   width: 241px;
   height: 300px;
+  margin-bottom: 26px;
 }
 .card_2_container {
   padding-right: 30px;
@@ -234,6 +236,7 @@ table {
 .card_3 {
   width: 240px;
   height: 300px;
+  margin-bottom: 26px;
 }
 .card_3_container {
   padding-right: 30px;
@@ -242,6 +245,7 @@ table {
 .card_4 {
   width: 238px;
   height: 300px;
+  margin-bottom: 26px;
 }
 .card_4_container {
   padding-right: 30px;
@@ -345,8 +349,8 @@ table {
 .rating {
   display: flex;
   position: absolute;
-  top: 300px;
-  left: 165px;
+  top: 325px;
+  left: 185px;
   width: 50px;
   height: 26px;
   border-radius: 20px;
@@ -355,6 +359,14 @@ table {
 .star_img {
   width: 15px;
   height: 14.5px;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 .rate {
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 5px;
+  padding-left: 5.5px;
 }
