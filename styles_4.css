@@ -165,7 +165,7 @@ table {
   text-decoration: none;
 }
 .page_descript {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 198px;
   padding-bottom: 10px;
   color: #fc724d;
@@ -182,7 +182,7 @@ table {
 }
 .pg4_parag {
   margin-left: 198px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   font-size: 14px;
   line-height: 20px;
 }
@@ -197,6 +197,15 @@ table {
   padding-right: 30px;
   margin-left: 195.5px;
   position: relative;
+}
+.card1_descript {
+  padding-top: 26px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fc724d;
+  text-decoration: none;
 }
 .like_img {
   position: absolute;
@@ -254,4 +263,98 @@ table {
   font-weight: 700;
   line-height: 24px;
   color: white;
+}
+.card1_main_text {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card1_text {
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.icon_sales {
+  display: flex;
+}
+.card1_sales {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+.undpointer_img {
+  position: relative;
+  width: 16px;
+  height: 5px;
+  top: 12px;
+}
+.pointer_img {
+  position: relative;
+  width: 7px;
+  height: 11px;
+  top: 3px;
+  left: -11px;
+}
+.prices {
+  padding-top: 10px;
+
+  display: flex;
+  width: 108px;
+  height: 34px;
+}
+.price_first {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bdbdbd;
+}
+.price_second {
+  padding-left: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0061ff;
+}
+.card1_main {
+  width: 193px;
+  height: 26px;
+  padding-left: 25px;
+}
+.card1_button {
+  margin-top: 10px;
+  border: 1px solid #fc724d;
+  border-radius: 37px;
+  background: none;
+  width: 141px;
+  height: 44px;
+  color: #fc724d;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.arrow_img {
+  position: relative;
+  top: 2.5px;
+  left: 3px;
+  width: 9.14px;
+  height: 16px;
+}
+.rating {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 165px;
+  width: 50px;
+  height: 26px;
+  border-radius: 20px;
+  background-color: #26335d;
+}
+.star_img {
+  width: 15px;
+  height: 14.5px;
+}
+.rate {
 }
