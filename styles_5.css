@@ -138,7 +138,7 @@ table {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 .nav-padd {
   margin-top: 33px;
@@ -152,35 +152,9 @@ table {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: white;
+  color: black;
 }
-.index-background {
-  background: rgba(95, 0, 0, 0.7) url(images/background.png);
-  color: #fff; /*Цвет текста на странице*/
-  background-attachment: fixed; /* Фон страницы фиксируется */
-  background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
-}
-.h1-main {
-  font-size: 58px;
-  line-height: 80px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-weight: 700;
-  width: 628px;
-  margin: auto;
-}
-.h5-main {
-  margin-top: 243px;
-  padding-bottom: 40px;
-  text-align: center;
-  color: white;
-}
-.h4-main {
-  font-size: 20px;
-  line-height: 30px;
-  width: 536px;
-  margin: auto;
-}
+
 .btn-disciption {
   margin-top: 40px;
   padding: 15px 40px;
@@ -189,4 +163,88 @@ table {
   border-radius: 0.5em;
   color: white;
   text-decoration: none;
+}
+.pg5_descr{
+    margin-top: 60px;
+    margin-left: 198px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FC724D;
+}
+.main_text{
+    margin-left: 198px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.main_descr{
+    margin-left: 198px;
+    padding-bottom: 96px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+.row{
+    margin-left: 195px;
+    width: 1050px;
+    height: 378.01px;
+}
+.expert_descr{
+    width: 158px;
+    height: 53px;
+    padding: 0px 25px;
+    margin-left: 150px;
+}
+.descr_1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.descr_2{
+    text-align: center;
+    color: #737373;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.expert_img{
+    margin-left: 190px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.card_content{
+    width: 458px;
+    height: 225.01px;
+    margin-left: 25px;
+}
+.card_descr{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    text-align: center;
+}
+.rating{
+    margin-left: 163.97px;
+    margin-bottom: 15px;
+    width: 130.07px;
+    height: 22.01px;
+}
+.rating{
+    display: flex;
+}
+.star{
+    width: 18.34px;
+    height: 18.35px;
+    margin-right: 5px;
+}
+.starb{
+    width: 18.34px;
+    height: 18.35px;
 }
