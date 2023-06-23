@@ -164,3 +164,82 @@ table {
   color: white;
   text-decoration: none;
 }
+.main_container{
+  margin-top: 112px;
+  margin-left: 198px;
+  width: 691px;
+  height: 134px;
+}
+.team_main{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fc724d;
+}
+.team_text{
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.team_decript{
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.row{
+  margin-top: 112px;
+  margin-left: 195px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.card1{
+  width: 238px;
+  height: 375px;
+  border-radius: 20px;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+.doctor_image{
+  width: 238px;
+  height: 231px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card1_content{
+  width: 232px;
+  height: 144px;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+.user_name{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.user_prof{
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+.social{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.asd{
+  border: none;
+  background: none;
+}
