@@ -196,6 +196,7 @@ table {
 }
 .page3_container {
   display: flex;
+  margin-top: 70px;
 }
 .main_text {
   padding-top: 35px;
